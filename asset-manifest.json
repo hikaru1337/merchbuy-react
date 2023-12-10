@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/merchbuy-react/static/css/main.17426421.css",
+    "main.js": "/merchbuy-react/static/js/main.0b6c68d9.js",
+    "static/media/cover4.png": "/merchbuy-react/static/media/cover4.86dc808f2aee3638e893.png",
+    "static/media/cover2.png": "/merchbuy-react/static/media/cover2.16b504a23fc756d568be.png",
+    "static/media/cover12.png": "/merchbuy-react/static/media/cover12.25d0657289e291cff035.png",
+    "static/media/cover11.png": "/merchbuy-react/static/media/cover11.442023fde19a5241f480.png",
+    "static/media/cover9.png": "/merchbuy-react/static/media/cover9.475e875efa89efe1aab3.png",
+    "static/media/cover3.png": "/merchbuy-react/static/media/cover3.612e666608ef99ee86b6.png",
+    "static/media/cover14.png": "/merchbuy-react/static/media/cover14.8bc1c021736b58cf24fa.png",
+    "static/media/cover1.png": "/merchbuy-react/static/media/cover1.2912b146d7d6b76be704.png",
+    "static/media/cover10.png": "/merchbuy-react/static/media/cover10.60b2d8bbc4b9470dc0d7.png",
+    "static/media/cover6.png": "/merchbuy-react/static/media/cover6.39706a4f7c7b5e0d7f1e.png",
+    "static/media/cover5.png": "/merchbuy-react/static/media/cover5.70f8ba8ef1cfb30d5b08.png",
+    "static/media/cover13.png": "/merchbuy-react/static/media/cover13.6d54f04b60626d728383.png",
+    "static/media/cover7.png": "/merchbuy-react/static/media/cover7.d7ecf757e387868d8988.png",
+    "static/media/gothampro_bold.ttf": "/merchbuy-react/static/media/gothampro_bold.764ba13de4409a990823.ttf",
+    "static/media/gothampro.ttf": "/merchbuy-react/static/media/gothampro.4f71921a0823129cd8ba.ttf",
+    "static/media/cover8.png": "/merchbuy-react/static/media/cover8.559df5bd425fc6613b8f.png",
+    "static/media/Hanson-Bold.ttf": "/merchbuy-react/static/media/Hanson-Bold.149cbb87b1e7af029228.ttf",
+    "static/media/HANSON HAIRLINE.otf": "/merchbuy-react/static/media/HANSON HAIRLINE.aa1fa085bfa447747cad.otf",
+    "static/media/solar_chat-square-like-broken.svg": "/merchbuy-react/static/media/solar_chat-square-like-broken.b01caf69524458aefe5dc42c6152c0ae.svg",
+    "static/media/mdi_cart-plus.svg": "/merchbuy-react/static/media/mdi_cart-plus.74ad78f379728ef71c606ba2bc63163f.svg",
+    "index.html": "/merchbuy-react/index.html",
+    "main.17426421.css.map": "/merchbuy-react/static/css/main.17426421.css.map",
+    "main.0b6c68d9.js.map": "/merchbuy-react/static/js/main.0b6c68d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17426421.css",
+    "static/js/main.0b6c68d9.js"
+  ]
+}
