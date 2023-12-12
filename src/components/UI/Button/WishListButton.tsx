@@ -1,5 +1,5 @@
 import Border from "../Border/Border";
-import WishlistLogo from "../../../icon/solar_chat-square-like-broken.svg";
+import WishlistLogo from "../../../assets/icon/solar_chat-square-like-broken.svg";
 
 const WishListButton = () => {
   return (

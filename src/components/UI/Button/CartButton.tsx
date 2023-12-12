@@ -1,4 +1,4 @@
-import CartLogo from "../../../icon/mdi_cart-plus.svg";
+import CartLogo from "../../../assets/icon/mdi_cart-plus.svg";
 import Border from "../Border/Border";
 import '../../../assets/Global.css';
 

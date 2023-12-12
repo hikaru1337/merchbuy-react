@@ -11,7 +11,7 @@ const CardList = ({ items }: Props) => {
         <>
             {
                 items.map((item:AlbumCover, index:number) => {
-                    const Image = require('../../../photo/cover' + (index + 1) + '.png');
+                    const Image = require('../../../data/photo/cover' + (index + 1) + '.png');
 
                     return <Card key={index} Title={item.Title} Price={item.Price} Description={item.Description} Image={Image}/>
                 })

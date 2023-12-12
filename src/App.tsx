@@ -1,7 +1,6 @@
 import Header from "./components/UI/Header/Header";
 import Footer from "./components/UI/Footer/Footer";
 import Body from "./components/UI/Body/Body";
-import ModalCard from "./components/UI/ModalCard/ModalCard";
 import { albumCovers } from "./data/albumCover";
 
 
@@ -9,7 +8,7 @@ import { albumCovers } from "./data/albumCover";
 function App() {
   const Covers = albumCovers;
 
-  const Image = require("./photo/cover1.png");
+  //const Image = require("./photo/cover1.png");
   return (
     <>
       
