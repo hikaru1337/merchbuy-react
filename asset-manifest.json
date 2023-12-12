@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/merchbuy-react/static/css/main.17426421.css",
-    "main.js": "/merchbuy-react/static/js/main.0b6c68d9.js",
+    "main.css": "/merchbuy-react/static/css/main.b2de8bfb.css",
+    "main.js": "/merchbuy-react/static/js/main.b28e1713.js",
     "static/media/cover4.png": "/merchbuy-react/static/media/cover4.86dc808f2aee3638e893.png",
     "static/media/cover2.png": "/merchbuy-react/static/media/cover2.16b504a23fc756d568be.png",
     "static/media/cover12.png": "/merchbuy-react/static/media/cover12.25d0657289e291cff035.png",
@@ -20,14 +20,15 @@
     "static/media/cover8.png": "/merchbuy-react/static/media/cover8.559df5bd425fc6613b8f.png",
     "static/media/Hanson-Bold.ttf": "/merchbuy-react/static/media/Hanson-Bold.149cbb87b1e7af029228.ttf",
     "static/media/HANSON HAIRLINE.otf": "/merchbuy-react/static/media/HANSON HAIRLINE.aa1fa085bfa447747cad.otf",
+    "static/media/logotype.svg": "/merchbuy-react/static/media/logotype.1cee5cb4e0593e0aa14abd195d2fef43.svg",
     "static/media/solar_chat-square-like-broken.svg": "/merchbuy-react/static/media/solar_chat-square-like-broken.b01caf69524458aefe5dc42c6152c0ae.svg",
     "static/media/mdi_cart-plus.svg": "/merchbuy-react/static/media/mdi_cart-plus.74ad78f379728ef71c606ba2bc63163f.svg",
     "index.html": "/merchbuy-react/index.html",
-    "main.17426421.css.map": "/merchbuy-react/static/css/main.17426421.css.map",
-    "main.0b6c68d9.js.map": "/merchbuy-react/static/js/main.0b6c68d9.js.map"
+    "main.b2de8bfb.css.map": "/merchbuy-react/static/css/main.b2de8bfb.css.map",
+    "main.b28e1713.js.map": "/merchbuy-react/static/js/main.b28e1713.js.map"
   },
   "entrypoints": [
-    "static/css/main.17426421.css",
-    "static/js/main.0b6c68d9.js"
+    "static/css/main.b2de8bfb.css",
+    "static/js/main.b28e1713.js"
   ]
 }
