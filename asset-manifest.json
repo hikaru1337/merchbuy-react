@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/merchbuy-react/static/css/main.b2de8bfb.css",
-    "main.js": "/merchbuy-react/static/js/main.b28e1713.js",
+    "main.css": "/merchbuy-react/static/css/main.5e24f3f9.css",
+    "main.js": "/merchbuy-react/static/js/main.04d73108.js",
     "static/media/cover4.png": "/merchbuy-react/static/media/cover4.86dc808f2aee3638e893.png",
     "static/media/cover2.png": "/merchbuy-react/static/media/cover2.16b504a23fc756d568be.png",
     "static/media/cover12.png": "/merchbuy-react/static/media/cover12.25d0657289e291cff035.png",
@@ -24,11 +24,11 @@
     "static/media/solar_chat-square-like-broken.svg": "/merchbuy-react/static/media/solar_chat-square-like-broken.b01caf69524458aefe5dc42c6152c0ae.svg",
     "static/media/mdi_cart-plus.svg": "/merchbuy-react/static/media/mdi_cart-plus.74ad78f379728ef71c606ba2bc63163f.svg",
     "index.html": "/merchbuy-react/index.html",
-    "main.b2de8bfb.css.map": "/merchbuy-react/static/css/main.b2de8bfb.css.map",
-    "main.b28e1713.js.map": "/merchbuy-react/static/js/main.b28e1713.js.map"
+    "main.5e24f3f9.css.map": "/merchbuy-react/static/css/main.5e24f3f9.css.map",
+    "main.04d73108.js.map": "/merchbuy-react/static/js/main.04d73108.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2de8bfb.css",
-    "static/js/main.b28e1713.js"
+    "static/css/main.5e24f3f9.css",
+    "static/js/main.04d73108.js"
   ]
 }
