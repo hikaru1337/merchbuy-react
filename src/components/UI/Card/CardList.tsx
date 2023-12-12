@@ -1,19 +1,20 @@
 import Card from "./Card";
 import { AlbumCover } from "../../../utils/types";
-
+import { ModalAction } from "../ModalWindow/ModalWindow";
 
 type Props = {
-  items: AlbumCover[];
+  Items: AlbumCover[];
+  dispatchModalState: (Item:ModalAction) => void;
 };
 
-const CardList = ({ items }: Props) => {
+const CardList = ({ Items,dispatchModalState }: Props) => {
     return (
         <>
             {
-                items.map((item:AlbumCover, index:number) => {
-                    const Image = require('../../../data/photo/cover' + (index + 1) + '.png');
+                Items.map((item:AlbumCover, index:number) => {
+                    item.Photo = require('../../../data/photo/cover' + (index + 1) + '.png');
 
-                    return <Card key={index} Title={item.Title} Price={item.Price} Description={item.Description} Image={Image}/>
+                    return <Card key={index} Item={item} dispatchModalState={dispatchModalState}/>
                 })
             }
         </>

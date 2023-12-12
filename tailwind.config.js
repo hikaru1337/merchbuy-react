@@ -4,6 +4,10 @@ module.exports = {
   theme: {
     extend: {
 
+      transitionTimingFunction: {
+        'out-expo': 'cubic-bezier(0.2, 3, 0.4, 1)',
+      },
+
       boxShadow: {
         'glow': '0 0 25px #F91A3C, 0 0 50px #F91A3C, 0 0 172px #F91A3C, 0 0 345px #F91A3C, 0 0 600px #F91A3C, 0 0 700px #F91A3C',
       },

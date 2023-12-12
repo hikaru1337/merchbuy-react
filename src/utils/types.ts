@@ -6,3 +6,9 @@ export interface AlbumCover {
     Photo: string;
 }
 
+export interface AlbumCoverCart {
+    Id: number;
+    AlbumCover: AlbumCover;
+    count: number;
+}
+

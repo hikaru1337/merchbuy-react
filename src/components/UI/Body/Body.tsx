@@ -1,12 +1,15 @@
 import CardList from "../Card/CardList";
 import { AlbumCover } from "../../../utils/types";
 import Blop from "./Blop";
+import { ModalAction } from "../ModalWindow/ModalWindow";
 
 type Props = {
   albumCovers: AlbumCover[];
+  dispatchModalState: (Item:ModalAction) => void;
 };
 
-const Body = ({ albumCovers }: Props) => {
+const Body = ({ albumCovers, dispatchModalState }: Props) => {
+
   return (
     <section className="flex justify-center relative">
       <div className="z-[-1]">
@@ -15,7 +18,7 @@ const Body = ({ albumCovers }: Props) => {
       </div>
 
       <div className="grid grid-cols-5 gap-[15px] py-[50px]">
-        <CardList items={albumCovers} />
+        <CardList Items={albumCovers} dispatchModalState={dispatchModalState} />
       </div>
     </section>
   );

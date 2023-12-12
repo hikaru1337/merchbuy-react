@@ -15,13 +15,12 @@ const PositionForNumber = (number: number): string => {
   else if (numberString.length === 3) 
     returnedValue = "top-[2px] left-[18.5px]";
 
-
   return returnedValue;
 };
 
 const CartButton = ({ countElements }: Props) => {
   return (
-    <Border className="cursor-pointer zxc">
+    <Border className="cursor-pointer hover:scale-105 transition-all duration-500 delay-0 ease-out-expo">
       <button className="text-white-200 bg-gradient-to-tr from-black-100 to-black-300 rounded-[25px] border-white-200 text-[20px] font-Hanson flex items-center py-[5px] px-[15px] gap-[10px] min-w-fit">
         <div>
           <p className={`absolute font-GothamRegular text-[10px] ${PositionForNumber(countElements)} -rotate-45`}>

@@ -27,14 +27,7 @@ body {
   src: url("../../public/font/gothampro.ttf");
 }
 
-:root {
-  --base-pop-transition: transform .5s  0s;
-  --base-pop-scale: scale(1.1);
-  --base-pop-color: "#FF0000";
-}
-
 .zxc {
-  
   transition: cubic-bezier(.2,3,.4,1);
   transition-duration: .5s;
   transition-delay: 0s;

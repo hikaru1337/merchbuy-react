@@ -2,23 +2,22 @@ import Header from "./components/UI/Header/Header";
 import Footer from "./components/UI/Footer/Footer";
 import Body from "./components/UI/Body/Body";
 import { albumCovers } from "./data/albumCover";
-
+import ModalWindow, { EnumModalWindow } from "./components/UI/ModalWindow/ModalWindow";
+import { ModalAction } from "./components/UI/ModalWindow/ModalWindow";
+import { useState } from "react";
 
 
 function App() {
-  const Covers = albumCovers;
+  const [modalWindow, setModalWindow] = useState<ModalAction>({ type:EnumModalWindow.none});
 
-  //const Image = require("./photo/cover1.png");
   return (
     <>
-      
+      <ModalWindow modalWindow={modalWindow} />
       <Header />
-      <Body albumCovers={Covers} />
+      <Body albumCovers={albumCovers} dispatchModalState={setModalWindow} />
       <Footer />
     </>
   );
 }
 
 export default App;
-
-//     <ModalCard Image={Image} Title={albumCovers[0].Title} Price={albumCovers[0].Price} Description={albumCovers[0].Description} />   
