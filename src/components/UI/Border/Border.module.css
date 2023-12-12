@@ -1,8 +1,9 @@
-.border-gradient {
+.gradient {
     position: relative;
+    border-radius: 25px;
 }
 
-.border-gradient::before {
+.gradient::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -14,5 +15,5 @@
       linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
             mask-composite: exclude;
-  }
+}
 
